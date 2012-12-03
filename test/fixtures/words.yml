@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: 
+  definition: 
+  pos: MyString
+
+two:
+  name: 
+  definition: 
+  pos: MyString

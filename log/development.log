@@ -1,0 +1,1250 @@
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-12-03 16:15:29 -0500
+Connecting to database specified by database.yml
+Served asset /rails.png - 200 OK (5ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-12-03 16:15:31 -0500
+Connecting to database specified by database.yml
+Served asset /rails.png - 200 OK (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-03 16:15:35 -0500
+
+AbstractController::ActionNotFound (The action 'index' could not be found for ApplicationController):
+  actionpack (3.2.8) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.8) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/cookies.rb:339:in `call'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `_run__401787789939930079__call__3608863928684304321__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-livereload (0.3.8) lib/rack/livereload.rb:54:in `_call'
+  rack-livereload (0.3.8) lib/rack/livereload.rb:45:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+  Rendered /Users/ryan/.rvm/gems/ruby-1.9.3-p194@twenty_words/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (3.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-03 16:15:36 -0500
+
+AbstractController::ActionNotFound (The action 'index' could not be found for ApplicationController):
+  actionpack (3.2.8) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.8) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/cookies.rb:339:in `call'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `_run__401787789939930079__call__3608863928684304321__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-livereload (0.3.8) lib/rack/livereload.rb:54:in `_call'
+  rack-livereload (0.3.8) lib/rack/livereload.rb:45:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+  Rendered /Users/ryan/.rvm/gems/ruby-1.9.3-p194@twenty_words/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-03 16:16:08 -0500
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb (0.3ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-03 16:16:09 -0500
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-03 16:16:37 -0500
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 1390ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap/overrides.
+Load paths:
+  Sass::Rails::Importer(/Users/ryan/Sites/twenty-words/app/assets/stylesheets/public.css.scss)
+  /Users/ryan/Sites/twenty-words/app/assets/stylesheets
+  /Users/ryan/.rvm/gems/ruby-1.9.3-p194@twenty_words/gems/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Users/ryan/.rvm/gems/ruby-1.9.3-p194@twenty_words/gems/compass-0.12.2/frameworks/compass/stylesheets
+  /Users/ryan/.rvm/gems/ruby-1.9.3-p194@twenty_words/gems/bootstrap-sass-2.1.1.0/vendor/assets/stylesheets
+  /Users/ryan/Sites/twenty-words/app/assets/stylesheets/partials
+  Compass::SpriteImporter
+  (in /Users/ryan/Sites/twenty-words/app/assets/stylesheets/public.css.scss)):
+    11:   <title>Ample Getting Started</title>
+    12:   <meta name="description" content="">
+    13:   <meta name="author" content="">
+    14:   <%= stylesheet_link_tag "public", media: "all" %>
+    15:   <%= javascript_include_tag "http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.5.3/modernizr.min.js" %>
+    16:   <%= javascript_include_tag "//ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js" %>
+    17:   <%= javascript_include_tag "public" %>
+  app/assets/stylesheets/partials/_base.scss:286
+  app/assets/stylesheets/public.css.scss:4
+  app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb__1681065861193654577_70127153165900'
+
+
+  Rendered /Users/ryan/.rvm/gems/ruby-1.9.3-p194@twenty_words/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/ryan/.rvm/gems/ruby-1.9.3-p194@twenty_words/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/ryan/.rvm/gems/ruby-1.9.3-p194@twenty_words/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-03 16:17:26 -0500
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.1ms)
+Compiled public.css  (2554ms)  (pid 18986)
+Compiled jquery.js  (3ms)  (pid 18986)
+Compiled jquery_ujs.js  (0ms)  (pid 18986)
+Compiled public.js  (44ms)  (pid 18986)
+Completed 200 OK in 2663ms (Views: 2662.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/public.css?body=1" for 127.0.0.1 at 2012-12-03 16:17:29 -0500
+Served asset /public.css - 200 OK (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-03 16:17:29 -0500
+Served asset /jquery.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-03 16:17:29 -0500
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/public.js?body=1" for 127.0.0.1 at 2012-12-03 16:17:29 -0500
+Served asset /public.js - 200 OK (3ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-03 16:29:35 -0500
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.6ms)
+Compiled words.js  (225ms)  (pid 18986)
+Compiled public.js  (288ms)  (pid 18986)
+Completed 200 OK in 350ms (Views: 349.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/public.css?body=1" for 127.0.0.1 at 2012-12-03 16:29:35 -0500
+Served asset /public.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-03 16:29:35 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-12-03 16:29:35 -0500
+Served asset /words.js - 200 OK (9ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-03 16:29:35 -0500
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/public.js?body=1" for 127.0.0.1 at 2012-12-03 16:29:35 -0500
+Served asset /public.js - 200 OK (117ms)
+
+
+Started GET "/word" for 127.0.0.1 at 2012-12-03 16:29:39 -0500
+
+AbstractController::ActionNotFound (The action 'word' could not be found for ApplicationController):
+  actionpack (3.2.8) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.8) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/cookies.rb:339:in `call'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `_run__401787789939930079__call__3608863928684304321__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-livereload (0.3.8) lib/rack/livereload.rb:54:in `_call'
+  rack-livereload (0.3.8) lib/rack/livereload.rb:45:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+  Rendered /Users/ryan/.rvm/gems/ruby-1.9.3-p194@twenty_words/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.5ms)
+
+
+Started GET "/words" for 127.0.0.1 at 2012-12-03 16:29:41 -0500
+Processing by WordsController#index as HTML
+Completed 500 Internal Server Error in 79ms
+
+ActiveRecord::StatementInvalid (Could not find table 'words'):
+  app/controllers/words_controller.rb:5:in `index'
+
+
+  Rendered /Users/ryan/.rvm/gems/ruby-1.9.3-p194@twenty_words/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /Users/ryan/.rvm/gems/ruby-1.9.3-p194@twenty_words/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/ryan/.rvm/gems/ruby-1.9.3-p194@twenty_words/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.2ms)
+
+
+Started GET "/word" for 127.0.0.1 at 2012-12-03 16:29:52 -0500
+
+AbstractController::ActionNotFound (The action 'word' could not be found for ApplicationController):
+  actionpack (3.2.8) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.8) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/cookies.rb:339:in `call'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `_run__401787789939930079__call__3608863928684304321__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-livereload (0.3.8) lib/rack/livereload.rb:54:in `_call'
+  rack-livereload (0.3.8) lib/rack/livereload.rb:45:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+  Rendered /Users/ryan/.rvm/gems/ruby-1.9.3-p194@twenty_words/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.3ms)
+
+
+Started GET "/word" for 127.0.0.1 at 2012-12-03 16:29:54 -0500
+
+AbstractController::ActionNotFound (The action 'word' could not be found for ApplicationController):
+  actionpack (3.2.8) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.8) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/cookies.rb:339:in `call'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `_run__401787789939930079__call__3608863928684304321__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-livereload (0.3.8) lib/rack/livereload.rb:54:in `_call'
+  rack-livereload (0.3.8) lib/rack/livereload.rb:45:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+  Rendered /Users/ryan/.rvm/gems/ruby-1.9.3-p194@twenty_words/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.3ms)
+
+
+Started GET "/word/new" for 127.0.0.1 at 2012-12-03 16:30:24 -0500
+
+AbstractController::ActionNotFound (The action 'word/new' could not be found for ApplicationController):
+  actionpack (3.2.8) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.8) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/cookies.rb:339:in `call'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `_run__401787789939930079__call__3608863928684304321__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-livereload (0.3.8) lib/rack/livereload.rb:54:in `_call'
+  rack-livereload (0.3.8) lib/rack/livereload.rb:45:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+  Rendered /Users/ryan/.rvm/gems/ruby-1.9.3-p194@twenty_words/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.3ms)
+
+
+Started GET "/word/new" for 127.0.0.1 at 2012-12-03 16:30:25 -0500
+
+AbstractController::ActionNotFound (The action 'word/new' could not be found for ApplicationController):
+  actionpack (3.2.8) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.8) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/cookies.rb:339:in `call'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `_run__401787789939930079__call__3608863928684304321__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-livereload (0.3.8) lib/rack/livereload.rb:54:in `_call'
+  rack-livereload (0.3.8) lib/rack/livereload.rb:45:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+  Rendered /Users/ryan/.rvm/gems/ruby-1.9.3-p194@twenty_words/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.3ms)
+
+
+Started GET "/word/edit" for 127.0.0.1 at 2012-12-03 16:30:27 -0500
+
+AbstractController::ActionNotFound (The action 'word/edit' could not be found for ApplicationController):
+  actionpack (3.2.8) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.8) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/cookies.rb:339:in `call'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `_run__401787789939930079__call__3608863928684304321__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-livereload (0.3.8) lib/rack/livereload.rb:54:in `_call'
+  rack-livereload (0.3.8) lib/rack/livereload.rb:45:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  railties (3.2.8) lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:147:in `handle'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:99:in `rescue in block (2 levels) in start'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:96:in `block (2 levels) in start'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `each'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:86:in `block in start'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `loop'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:66:in `start'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/lib/nack/server.rb:13:in `run'
+  /Users/ryan/Library/Application Support/Pow/Versions/0.4.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+  Rendered /Users/ryan/.rvm/gems/ruby-1.9.3-p194@twenty_words/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/words/edit" for 127.0.0.1 at 2012-12-03 16:30:38 -0500
+Processing by WordsController#show as HTML
+  Parameters: {"id"=>"edit"}
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::StatementInvalid (Could not find table 'words'):
+  app/controllers/words_controller.rb:16:in `show'
+
+
+  Rendered /Users/ryan/.rvm/gems/ruby-1.9.3-p194@twenty_words/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/ryan/.rvm/gems/ruby-1.9.3-p194@twenty_words/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/ryan/.rvm/gems/ruby-1.9.3-p194@twenty_words/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.7ms)
+
+
+Started GET "/words/edit" for 127.0.0.1 at 2012-12-03 16:30:39 -0500
+Processing by WordsController#show as HTML
+  Parameters: {"id"=>"edit"}
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::StatementInvalid (Could not find table 'words'):
+  app/controllers/words_controller.rb:16:in `show'
+
+
+  Rendered /Users/ryan/.rvm/gems/ruby-1.9.3-p194@twenty_words/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/ryan/.rvm/gems/ruby-1.9.3-p194@twenty_words/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/ryan/.rvm/gems/ruby-1.9.3-p194@twenty_words/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.0ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.6ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (1.2ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (1.6ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateWords (20121203212928)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateWords (20121203212928)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateWords (20121203212928)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateWords (20121203212928)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "words" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "definition" text, "pos" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20121203212928')[0m
+  [1m[35m (1.4ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("words")[0m
+
+
+Started GET "/words/edit" for 127.0.0.1 at 2012-12-03 16:33:21 -0500
+Processing by WordsController#show as HTML
+  Parameters: {"id"=>"edit"}
+  [1m[36mWord Load (0.7ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."id" = ? LIMIT 1[0m  [["id", "edit"]]
+Completed 500 Internal Server Error in 5ms
+
+ActiveRecord::RecordNotFound (Couldn't find Word with id=edit):
+  app/controllers/words_controller.rb:16:in `show'
+
+
+  Rendered /Users/ryan/.rvm/gems/ruby-1.9.3-p194@twenty_words/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/ryan/.rvm/gems/ruby-1.9.3-p194@twenty_words/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/ryan/.rvm/gems/ruby-1.9.3-p194@twenty_words/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.1ms)
+
+
+Started GET "/words/" for 127.0.0.1 at 2012-12-03 16:33:25 -0500
+Processing by WordsController#index as HTML
+  [1m[35mWord Load (0.1ms)[0m  SELECT "words".* FROM "words" 
+  Rendered words/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/public.css?body=1" for 127.0.0.1 at 2012-12-03 16:33:25 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-03 16:33:25 -0500
+Served asset /public.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-12-03 16:33:25 -0500
+Served asset /words.js - 304 Not Modified (2ms)
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-03 16:33:25 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/words/new" for 127.0.0.1 at 2012-12-03 16:33:27 -0500
+Processing by WordsController#new as HTML
+  Rendered words/_form.html.erb (37.6ms)
+  Rendered words/new.html.erb within layouts/application (43.0ms)
+Completed 200 OK in 57ms (Views: 49.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/public.css?body=1" for 127.0.0.1 at 2012-12-03 16:33:27 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-03 16:33:27 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /public.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-12-03 16:33:27 -0500
+Served asset /words.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-03 16:33:27 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateWords (20121203212928)
+Migrating to AddExampleToWords (20121203213400)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (7.3ms)[0m  ALTER TABLE "words" ADD "example" text
+  [1m[36m (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20121203213400')[0m
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("words")[0m
+
+
+Started GET "/words/new" for 127.0.0.1 at 2012-12-03 16:34:18 -0500
+Processing by WordsController#new as HTML
+  Rendered words/_form.html.erb (2.6ms)
+  Rendered words/new.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 17ms (Views: 10.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/public.css?body=1" for 127.0.0.1 at 2012-12-03 16:34:18 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-03 16:34:18 -0500
+Served asset /public.css - 304 Not Modified (2ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-03 16:34:18 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-12-03 16:34:18 -0500
+Served asset /words.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/public.js?body=1" for 127.0.0.1 at 2012-12-03 16:34:18 -0500
+Served asset /public.js - 304 Not Modified (0ms)
+
+
+Started GET "/words/new" for 127.0.0.1 at 2012-12-03 16:34:20 -0500
+Processing by WordsController#new as HTML
+  Rendered words/_form.html.erb (1.7ms)
+  Rendered words/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 8ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/public.css?body=1" for 127.0.0.1 at 2012-12-03 16:34:20 -0500
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-12-03 16:34:20 -0500
+Served asset /public.css - 304 Not Modified (1ms)
+Served asset /words.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-03 16:34:20 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-03 16:34:20 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/public.js?body=1" for 127.0.0.1 at 2012-12-03 16:34:20 -0500
+Served asset /public.js - 304 Not Modified (7ms)
+
+
+Started GET "/words/new" for 127.0.0.1 at 2012-12-03 16:34:21 -0500
+Processing by WordsController#new as HTML
+  Rendered words/_form.html.erb (1.7ms)
+  Rendered words/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/public.css?body=1" for 127.0.0.1 at 2012-12-03 16:34:21 -0500
+Served asset /public.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-03 16:34:21 -0500
+
+
+Started GET "/assets/public.js?body=1" for 127.0.0.1 at 2012-12-03 16:34:21 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /public.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-12-03 16:34:21 -0500
+Served asset /words.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-03 16:34:21 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/words/new" for 127.0.0.1 at 2012-12-03 16:34:43 -0500
+Processing by WordsController#new as HTML
+  Rendered words/_form.html.erb (3.1ms)
+  Rendered words/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 10ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/public.css?body=1" for 127.0.0.1 at 2012-12-03 16:34:43 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-03 16:34:43 -0500
+Served asset /jquery_ujs.js - 200 OK (0ms)
+Served asset /public.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-03 16:34:43 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-12-03 16:34:43 -0500
+Served asset /words.js - 200 OK (0ms)
+
+
+Started GET "/assets/public.js?body=1" for 127.0.0.1 at 2012-12-03 16:34:43 -0500
+Served asset /public.js - 200 OK (0ms)
+
+
+Started POST "/words" for 127.0.0.1 at 2012-12-03 16:34:55 -0500
+Processing by WordsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kkT/PPjE6LfyX/xoqt0ro+o8wbDEcsz4O585KFTtLzQ=", "word"=>{"name"=>"test", "definition"=>"This is my test", "pos"=>"Adv.", "example"=>"This is my testing example."}, "commit"=>"Create Word"}
+Completed 500 Internal Server Error in 1ms
+
+ActiveModel::MassAssignmentSecurity::Error (Can't mass-assign protected attributes: example):
+  app/controllers/words_controller.rb:43:in `new'
+  app/controllers/words_controller.rb:43:in `create'
+
+
+  Rendered /Users/ryan/.rvm/gems/ruby-1.9.3-p194@twenty_words/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/ryan/.rvm/gems/ruby-1.9.3-p194@twenty_words/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/ryan/.rvm/gems/ruby-1.9.3-p194@twenty_words/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.0ms)
+
+
+Started POST "/words" for 127.0.0.1 at 2012-12-03 16:36:02 -0500
+Connecting to database specified by database.yml
+Processing by WordsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kkT/PPjE6LfyX/xoqt0ro+o8wbDEcsz4O585KFTtLzQ=", "word"=>{"name"=>"test", "definition"=>"This is my test", "pos"=>"Adv.", "example"=>"This is my testing example."}, "commit"=>"Create Word"}
+Completed 500 Internal Server Error in 21ms
+
+ActiveModel::MassAssignmentSecurity::Error (Can't mass-assign protected attributes: example):
+  app/controllers/words_controller.rb:43:in `new'
+  app/controllers/words_controller.rb:43:in `create'
+
+
+  Rendered /Users/ryan/.rvm/gems/ruby-1.9.3-p194@twenty_words/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/ryan/.rvm/gems/ruby-1.9.3-p194@twenty_words/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/ryan/.rvm/gems/ruby-1.9.3-p194@twenty_words/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.6ms)
+
+
+Started POST "/words" for 127.0.0.1 at 2012-12-03 16:37:00 -0500
+Processing by WordsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kkT/PPjE6LfyX/xoqt0ro+o8wbDEcsz4O585KFTtLzQ=", "word"=>{"name"=>"test", "definition"=>"This is my test", "pos"=>"Adv.", "example"=>"This is my testing example."}, "commit"=>"Create Word"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO "words" ("created_at", "definition", "example", "name", "pos", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["created_at", Mon, 03 Dec 2012 21:37:00 UTC +00:00], ["definition", "This is my test"], ["example", "This is my testing example."], ["name", "test"], ["pos", "Adv."], ["updated_at", Mon, 03 Dec 2012 21:37:00 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://twenty-words.dev/words/1
+Completed 302 Found in 20ms (ActiveRecord: 9.3ms)
+
+
+Started GET "/words/1" for 127.0.0.1 at 2012-12-03 16:37:00 -0500
+Processing by WordsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered words/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 54ms (Views: 52.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/public.css?body=1" for 127.0.0.1 at 2012-12-03 16:37:00 -0500
+Served asset /public.css - 200 OK (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-03 16:37:00 -0500
+Served asset /jquery_ujs.js - 200 OK (4ms)
+
+
+Started GET "/assets/public.js?body=1" for 127.0.0.1 at 2012-12-03 16:37:00 -0500
+Served asset /public.js - 200 OK (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-03 16:37:02 -0500
+Connecting to database specified by database.yml
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-12-03 16:37:02 -0500
+Served asset /words.js - 200 OK (1ms)
+
+
+Started GET "/words" for 127.0.0.1 at 2012-12-03 16:37:05 -0500
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" [0m
+  Rendered words/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/words/1/edit" for 127.0.0.1 at 2012-12-03 16:37:08 -0500
+Processing by WordsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mWord Load (0.1ms)[0m  SELECT "words".* FROM "words" WHERE "words"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered words/_form.html.erb (8.7ms)
+  Rendered words/edit.html.erb within layouts/application (35.8ms)
+Completed 200 OK in 45ms (Views: 44.2ms | ActiveRecord: 0.1ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateWords (20121203212928)
+Migrating to AddExampleToWords (20121203213400)
+Migrating to CreateLists (20121203214310)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "lists" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20121203214310')[0m
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("lists")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("words")
+
+
+Started GET "/words" for 127.0.0.1 at 2012-12-03 16:48:08 -0500
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" [0m
+  Rendered words/index.html.erb within layouts/application (1.6ms)
+Compiled lists.js  (199ms)  (pid 20510)
+Compiled public.js  (244ms)  (pid 20510)
+Completed 200 OK in 286ms (Views: 278.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/lists.js?body=1" for 127.0.0.1 at 2012-12-03 16:48:08 -0500
+
+
+Started GET "/assets/public.css?body=1" for 127.0.0.1 at 2012-12-03 16:48:08 -0500
+Served asset /lists.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-03 16:48:08 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+Served asset /public.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-03 16:48:08 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-12-03 16:48:09 -0500
+Served asset /words.js - 304 Not Modified (1ms)
+
+
+Started GET "/lists" for 127.0.0.1 at 2012-12-03 16:48:12 -0500
+Processing by ListsController#index as HTML
+  [1m[35mList Load (0.1ms)[0m  SELECT "lists".* FROM "lists" 
+  Rendered lists/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 11ms (Views: 8.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/public.css?body=1" for 127.0.0.1 at 2012-12-03 16:48:12 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-03 16:48:12 -0500
+Served asset /public.css - 304 Not Modified (1ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-03 16:48:12 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-12-03 16:48:12 -0500
+Served asset /words.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateWords (20121203212928)
+Migrating to AddExampleToWords (20121203213400)
+Migrating to CreateLists (20121203214310)
+Migrating to AddPronunciationToWords (20121203215508)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  ALTER TABLE "words" ADD "pronunciation" varchar(255)
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20121203215508')[0m
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("lists")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("words")
+Connecting to database specified by database.yml
+  [1m[36mWord Last ID (0.1ms)[0m  [1mSELECT id FROM "words" ORDER BY id DESC[0m
+Connecting to database specified by database.yml
+  [1m[36mWord Last ID (0.1ms)[0m  [1mSELECT id FROM "words" ORDER BY id DESC[0m
+  [1m[35mWord Populate (4.1ms)[0m  INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (2, 'et', 'Expedita soluta qui voluptatem autem eum. Sunt rem alias tenetur deserunt consectetur dolor et ipsum eaque ratione et nulla', NULL, '2012-12-03 22:03:40.142734', '2012-12-03 22:03:40.142736', NULL, NULL);INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (3, 'illo', 'Fugit non aspernatur et praesentium ut ut tenetur accusamus ut aliquam sapiente aut et. Consectetur aperiam veritatis quisquam vel aut corporis omnis quam similique voluptates laborum at debitis culpa occaecati doloremque', NULL, '2012-12-03 22:03:40.142838', '2012-12-03 22:03:40.142840', NULL, NULL);INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (4, 'non', 'Cumque ratione id dolorem soluta sequi accusantium culpa aut dolorum odio totam voluptatem aut qui. Aperiam sequi inventore voluptatibus quos at eligendi voluptate', NULL, '2012-12-03 22:03:40.142901', '2012-12-03 22:03:40.142903', NULL, NULL);INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (5, 'distinctio', 'Quia aut corrupti voluptas ut et qui vel nihil facilis sapiente natus perspiciatis quis est cum. Sint autem architecto adipisci quia sunt numquam qui reprehenderit. Et qui assumenda porro suscipit est sed accusantium voluptatem', NULL, '2012-12-03 22:03:40.142957', '2012-12-03 22:03:40.142959', NULL, NULL);INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (6, 'expedita', 'Quia aut qui corporis ex accusantium magnam vitae ut cum. Tempora rerum sequi minus quis. Accusamus aut est et voluptatem eos id voluptatem debitis repellat quod', NULL, '2012-12-03 22:03:40.143022', '2012-12-03 22:03:40.143024', NULL, NULL);INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (7, 'neque', 'Et earum beatae totam aliquam quam similique delectus voluptatibus similique quia totam similique. Quasi doloribus assumenda quia totam quasi dicta in', NULL, '2012-12-03 22:03:40.143083', '2012-12-03 22:03:40.143085', NULL, NULL);INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (8, 'delectus', 'Porro explicabo voluptate eius nemo deleniti corrupti veritatis iure corrupti rerum omnis iusto sunt aut quia quam modi. Et accusamus illum voluptas eum fugit cupiditate doloribus harum rem nisi enim quod natus quasi sit quo', NULL, '2012-12-03 22:03:40.143137', '2012-12-03 22:03:40.143138', NULL, NULL);INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (9, 'at', 'Non et dolorem enim placeat ut culpa similique quod quibusdam ut itaque est saepe eius. Et mollitia et non facere velit optio nulla in non labore laboriosam. Iste consequatur eligendi sequi exercitationem', NULL, '2012-12-03 22:03:40.143196', '2012-12-03 22:03:40.143197', NULL, NULL);INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (10, 'enim', 'Deleniti eaque pariatur sit nulla sit corrupti animi aliquam repudiandae aliquid. Officiis facere magni voluptatem placeat aliquid et qui voluptas eum doloribus quod dolor quisquam soluta ratione', NULL, '2012-12-03 22:03:40.143260', '2012-12-03 22:03:40.143262', NULL, NULL);INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (11, 'et', 'Explicabo nobis alias doloremque quaerat sunt iure sint nobis facilis eaque id qui earum possimus aut sint rem. Consequatur tempore ut eos dolores', NULL, '2012-12-03 22:03:40.143316', '2012-12-03 22:03:40.143318', NULL, NULL);INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (12, 'nihil', 'Placeat fugit occaecati voluptas natus dolore nam rem ad. Perferendis molestias odit dignissimos reprehenderit repellendus accusamus consequatur velit vel enim', NULL, '2012-12-03 22:03:40.143369', '2012-12-03 22:03:40.143371', NULL, NULL);INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (13, 'sapiente', 'A suscipit qui reiciendis dicta neque quae reprehenderit consectetur et maxime quasi ut ab. Iste optio asperiores est voluptatem eaque', NULL, '2012-12-03 22:03:40.143421', '2012-12-03 22:03:40.143423', NULL, NULL);INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (14, 'magnam', 'Rerum aut est inventore placeat consequatur quia rerum est recusandae est deleniti aut corrupti optio voluptas quasi ad. Consectetur non ea dolores officia amet sequi necessitatibus earum provident tenetur officiis culpa ut aut id et. Nihil laborum itaque ut vel quia iusto sapiente dolorum totam magnam deleniti', NULL, '2012-12-03 22:03:40.143474', '2012-12-03 22:03:40.143476', NULL, NULL);INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (15, 'aliquam', 'Facere culpa vel laborum sapiente ab beatae. Est ex quo debitis id nostrum quam voluptas hic ex provident quas error beatae. Id rem voluptate consequatur aut tempore eligendi nihil dolor vel eius non', NULL, '2012-12-03 22:03:40.143547', '2012-12-03 22:03:40.143548', NULL, NULL);INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (16, 'ducimus', 'Soluta voluptatem commodi adipisci nam ipsa et quam cupiditate est modi ut architecto eum dolores. Quod et accusamus consequatur cumque fugiat', NULL, '2012-12-03 22:03:40.143610', '2012-12-03 22:03:40.143612', NULL, NULL);INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (17, 'eligendi', 'Quis aut rem voluptates aut consequatur eum facere mollitia aliquid. Vel aut expedita voluptatem exercitationem corporis officia illum nobis repellat et dolore saepe ad facere culpa. Perferendis qui aspernatur error amet voluptatem totam veniam voluptates', NULL, '2012-12-03 22:03:40.143662', '2012-12-03 22:03:40.143664', NULL, NULL);INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (18, 'repellendus', 'Quidem voluptas voluptas earum ipsam fuga molestiae illum modi impedit molestiae quaerat quia consequatur omnis laboriosam aut. Incidunt ut error pariatur qui non aliquam beatae ea veniam nobis et est unde', NULL, '2012-12-03 22:03:40.143727', '2012-12-03 22:03:40.143729', NULL, NULL);INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (19, 'pariatur', 'Esse nihil esse expedita eaque provident recusandae sed inventore voluptatibus qui facere ut quia. Qui alias sed eos autem excepturi sapiente non asperiores quo ullam hic quis. Sed nobis id rerum fugit officiis est sapiente dolor repudiandae perspiciatis dignissimos est a aut voluptatem sunt', NULL, '2012-12-03 22:03:40.143785', '2012-12-03 22:03:40.143787', NULL, NULL);INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (20, 'pariatur', 'Ea quod autem omnis aut qui et ad voluptatem labore atque in est labore repellat. Dolores error dolores quia vero quo cumque et itaque mollitia sint est alias ut magnam et blanditiis qui et ut', NULL, '2012-12-03 22:03:40.143855', '2012-12-03 22:03:40.143857', NULL, NULL);INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (21, 'ullam', 'Rerum quos repudiandae est et sit illum. Officia sed dolorem et et quae vel sunt. Id sed assumenda neque quidem et odit id soluta totam id in deserunt labore consequatur dolores sit quisquam quibusdam', NULL, '2012-12-03 22:03:40.143918', '2012-12-03 22:03:40.143920', NULL, NULL)
+Connecting to database specified by database.yml
+
+
+Started GET "/lists" for 127.0.0.1 at 2012-12-03 17:03:46 -0500
+Processing by ListsController#index as HTML
+  [1m[36mList Load (0.1ms)[0m  [1mSELECT "lists".* FROM "lists" [0m
+  Rendered lists/index.html.erb within layouts/application (22.4ms)
+Completed 200 OK in 105ms (Views: 65.4ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/public.css?body=1" for 127.0.0.1 at 2012-12-03 17:03:47 -0500
+Served asset /public.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/public.js?body=1" for 127.0.0.1 at 2012-12-03 17:03:47 -0500
+Served asset /public.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-03 17:03:47 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/lists.js?body=1" for 127.0.0.1 at 2012-12-03 17:03:47 -0500
+Served asset /lists.js - 304 Not Modified (2ms)
+
+
+Started GET "/words" for 127.0.0.1 at 2012-12-03 17:03:48 -0500
+Processing by WordsController#index as HTML
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" 
+  Rendered words/index.html.erb within layouts/application (38.1ms)
+Completed 200 OK in 57ms (Views: 46.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-03 17:03:48 -0500
+Served asset /jquery.js - 200 OK (2ms)
+
+
+Started GET "/assets/public.css?body=1" for 127.0.0.1 at 2012-12-03 17:03:48 -0500
+Served asset /public.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-12-03 17:03:48 -0500
+Served asset /words.js - 200 OK (2ms)
+
+
+Started GET "/assets/public.js?body=1" for 127.0.0.1 at 2012-12-03 17:03:48 -0500
+Served asset /public.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-12-03 17:03:49 -0500
+Served asset /words.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-03 17:03:49 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-03 17:03:49 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/lists.js?body=1" for 127.0.0.1 at 2012-12-03 17:03:49 -0500
+Served asset /lists.js - 304 Not Modified (1ms)
+Connecting to database specified by database.yml
+  [1m[36mWord Last ID (0.1ms)[0m  [1mSELECT id FROM "words" ORDER BY id DESC[0m
+  [1m[35mWord Populate (3.5ms)[0m  INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (22, 'Delectus', 'Eos qui est aut enim at necessitatibus. Suscipit quasi expedita qui ut ea veritatis voluptatem nostrum libero porro culpa nemo quaerat amet reiciendis in itaque quo iure', NULL, '2012-12-03 22:04:17.482357', '2012-12-03 22:04:17.482360', NULL, NULL);INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (23, 'Nobis', 'Tenetur et explicabo aspernatur quae rerum illo eligendi et molestias animi cumque molestiae laborum occaecati. Possimus facere labore sequi ex explicabo repellendus vel ut ipsum', NULL, '2012-12-03 22:04:17.482560', '2012-12-03 22:04:17.482562', NULL, NULL);INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (24, 'Magni', 'Modi fugit sapiente mollitia autem dignissimos nobis mollitia qui et. Sunt mollitia et ducimus ut eius nisi et voluptatem ut dolores adipisci. Vel ipsam dolorem tenetur veniam voluptates quia ex', NULL, '2012-12-03 22:04:17.482668', '2012-12-03 22:04:17.482670', NULL, NULL);INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (25, 'Beatae', 'Consectetur vero qui vitae sed voluptatem nam quo cumque eum culpa ut harum rerum necessitatibus ipsum qui explicabo inventore labore. Reprehenderit commodi voluptatem nostrum reprehenderit autem libero enim et eveniet et', NULL, '2012-12-03 22:04:17.482777', '2012-12-03 22:04:17.482779', NULL, NULL);INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (26, 'Vel', 'Qui animi perferendis animi totam quia. Quo harum nobis alias repellendus debitis tenetur perspiciatis id autem esse atque impedit nihil alias', NULL, '2012-12-03 22:04:17.482883', '2012-12-03 22:04:17.482885', NULL, NULL);INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (27, 'Et', 'Veniam eum eius eos ut dolores autem quo dignissimos. Labore mollitia qui earum delectus sapiente animi repudiandae repellendus voluptas omnis sunt omnis voluptatem quibusdam tenetur dolores. Dolorum veniam veritatis ut corrupti', NULL, '2012-12-03 22:04:17.482979', '2012-12-03 22:04:17.482981', NULL, NULL);INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (28, 'Optio', 'Laudantium voluptates doloribus quae vero. Aut qui eos nobis est. Nihil unde omnis voluptate aut eum nihil iste veritatis', NULL, '2012-12-03 22:04:17.483083', '2012-12-03 22:04:17.483085', NULL, NULL);INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (29, 'Sit', 'Repudiandae perferendis qui voluptatem omnis qui tempore expedita labore magnam provident. Ab quis qui et quaerat voluptate accusamus cumque placeat temporibus necessitatibus deleniti dolore suscipit et qui illum. Qui saepe velit aliquam et est', NULL, '2012-12-03 22:04:17.483181', '2012-12-03 22:04:17.483183', NULL, NULL);INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (30, 'Necessitatibus', 'Consectetur error nihil praesentium qui nemo quibusdam et ut dolor quisquam suscipit exercitationem impedit quisquam. Dolores voluptatem sunt magni dolorum vel sunt aut vero ratione et distinctio optio', NULL, '2012-12-03 22:04:17.483287', '2012-12-03 22:04:17.483289', NULL, NULL);INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (31, 'Est', 'Est officia est tempora blanditiis necessitatibus illo alias repellendus quos ipsam nulla exercitationem reiciendis voluptatem perferendis autem odit doloribus tempora. Omnis quasi voluptatem laborum voluptatibus debitis est quisquam temporibus mollitia natus. Esse vitae est fuga similique facere consectetur aperiam architecto consequatur nostrum molestias', NULL, '2012-12-03 22:04:17.483387', '2012-12-03 22:04:17.483389', NULL, NULL);INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (32, 'Dolores', 'Ut distinctio et optio officia sit tempore et dolorum suscipit facilis est rerum aut ipsa a occaecati omnis et. Voluptates et voluptatem debitis non labore enim repudiandae natus omnis repellat totam natus omnis vero quidem soluta eos hic', NULL, '2012-12-03 22:04:17.483503', '2012-12-03 22:04:17.483505', NULL, NULL);INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (33, 'Ratione', 'Reprehenderit vitae facilis sunt ab sit fuga illum culpa unde veniam doloremque quae cum ea officiis voluptatem alias. Fuga ullam deleniti dolores sapiente veniam voluptatem et qui molestiae esse maiores veniam ut officia omnis quod. Asperiores ut expedita dolores laborum incidunt magnam eaque', NULL, '2012-12-03 22:04:17.483608', '2012-12-03 22:04:17.483609', NULL, NULL);INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (34, 'Voluptas', 'Laborum commodi aliquam optio dignissimos rem possimus sed. Accusamus eligendi aperiam et aut doloribus ea iure rem sequi officia veniam ut nihil ut necessitatibus odit dolorum necessitatibus. Et ut esse autem et voluptatem exercitationem quibusdam doloremque vero dolores officia', NULL, '2012-12-03 22:04:17.483720', '2012-12-03 22:04:17.483721', NULL, NULL);INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (35, 'Veniam', 'Et dolorem repudiandae id recusandae nihil ut alias suscipit ea molestiae ut id est tempore minus pariatur vel dicta. Similique rerum ut et autem vel et perspiciatis accusamus laborum qui', NULL, '2012-12-03 22:04:17.483830', '2012-12-03 22:04:17.483831', NULL, NULL);INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (36, 'Cum', 'Laudantium aut mollitia est fugit adipisci eos. Alias deserunt quis ut ut autem ea ut est maiores sed excepturi impedit', NULL, '2012-12-03 22:04:17.483930', '2012-12-03 22:04:17.483932', NULL, NULL);INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (37, 'Nihil', 'Qui porro aut tenetur non non perspiciatis omnis magni dolores at laudantium esse ullam. Eum ut occaecati blanditiis voluptatem deserunt dolorem culpa non. Quis delectus quasi sit accusantium voluptas labore qui vel molestiae perspiciatis expedita veniam blanditiis quo', NULL, '2012-12-03 22:04:17.484023', '2012-12-03 22:04:17.484025', NULL, NULL);INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (38, 'Aut', 'Quisquam aliquam sunt cum atque. Ut eveniet autem sapiente ut sunt minus ut mollitia', NULL, '2012-12-03 22:04:17.484132', '2012-12-03 22:04:17.484134', NULL, NULL);INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (39, 'Quidem', 'Animi amet cumque cum sed harum voluptatem omnis molestias et quas rerum quia. Perspiciatis doloribus officia expedita amet repudiandae nulla sapiente laborum est et quae modi voluptatum nulla voluptas enim reprehenderit non', NULL, '2012-12-03 22:04:17.484222', '2012-12-03 22:04:17.484224', NULL, NULL);INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (40, 'Iure', 'Sunt voluptates vitae deserunt maxime sint atque dolor numquam dignissimos quas nihil dolorem vel quaerat adipisci aut recusandae veritatis inventore. Pariatur impedit et nulla delectus quasi quo et inventore numquam tenetur et itaque et est. Amet veritatis dicta harum omnis enim tempore aspernatur aliquam velit blanditiis eum quidem aspernatur et et tempore unde nam', NULL, '2012-12-03 22:04:17.484324', '2012-12-03 22:04:17.484325', NULL, NULL);INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (41, 'Accusantium', 'Consectetur ab hic aliquam rem omnis qui aspernatur voluptatem. Et rerum explicabo nisi voluptatum. Corrupti est eveniet autem provident molestiae alias culpa vel blanditiis consequatur dolorem facilis', NULL, '2012-12-03 22:04:17.484441', '2012-12-03 22:04:17.484443', NULL, NULL)
+
+
+Started GET "/words" for 127.0.0.1 at 2012-12-03 17:04:18 -0500
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" [0m
+  Rendered words/index.html.erb within layouts/application (24.7ms)
+Completed 200 OK in 35ms (Views: 32.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/public.css?body=1" for 127.0.0.1 at 2012-12-03 17:04:19 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-03 17:04:19 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+Served asset /public.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/public.js?body=1" for 127.0.0.1 at 2012-12-03 17:04:19 -0500
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-12-03 17:04:19 -0500
+Served asset /words.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-03 17:04:19 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /public.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/lists.js?body=1" for 127.0.0.1 at 2012-12-03 17:04:19 -0500
+Served asset /lists.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (1.3ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (0.8ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateWords (20121203212928)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "words" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "definition" text, "pos" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20121203212928')
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+Migrating to AddExampleToWords (20121203213400)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "words" ADD "example" text[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20121203213400')
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+Migrating to CreateLists (20121203214310)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "lists" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20121203214310')
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+Migrating to AddPronunciationToWords (20121203215508)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "words" ADD "pronunciation" varchar(255)[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20121203215508')
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("lists")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("words")[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36mWord Last ID (0.1ms)[0m  [1mSELECT id FROM "words" ORDER BY id DESC[0m
+  [1m[35mWord Populate (3.5ms)[0m  INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (1, 'Aperiam', 'Reprehenderit voluptas architecto voluptatem velit velit quaerat quos dicta a esse doloribus voluptas tenetur ut nam sunt commodi. Veniam ipsa laboriosam voluptatum veritatis cum alias pariatur recusandae', NULL, '2012-12-03 22:05:15.236297', '2012-12-03 22:05:15.236300', 'Consequuntur quis blanditiis cumque sequi soluta eos quisquam possimus consequatur qui reprehenderit quos ipsam consectetur', 'vitae');INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (2, 'Accusamus', 'Excepturi exercitationem qui dolor quis sunt. Modi ut rem labore voluptatum asperiores nihil et quidem incidunt quia est dignissimos tempore autem quis necessitatibus', NULL, '2012-12-03 22:05:15.236537', '2012-12-03 22:05:15.236539', 'Eum amet quasi eveniet est cumque necessitatibus aut officiis fugit aut ratione', 'sed');INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (3, 'Velit', 'Id dignissimos aut ut eum harum facere dolores. Numquam voluptatem dignissimos id nobis ducimus odit ratione quis sed dolorem delectus quisquam excepturi debitis omnis. Non aut quo recusandae et et ea nulla quis debitis nihil velit voluptatum dolorem qui reiciendis ullam', NULL, '2012-12-03 22:05:15.236670', '2012-12-03 22:05:15.236672', 'Ab minima ut rerum in dolor rem sequi consectetur iure porro eligendi libero quaerat quo', 'suscipit');INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (4, 'Ea', 'Sed deleniti corrupti mollitia explicabo perspiciatis quasi quod ut quia. Commodi et autem quia aut non laborum temporibus facere sit eos est et eos enim pariatur illum pariatur reiciendis expedita', NULL, '2012-12-03 22:05:15.236813', '2012-12-03 22:05:15.236815', 'Quia eum inventore ut fuga accusamus labore', 'sapiente');INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (5, 'Enim', 'Adipisci in unde fugit nostrum aliquid atque ex qui sapiente eveniet eum est sed. Sed odit et doloremque velit impedit sint dolorum voluptates similique voluptatem. Tempore sint quo fuga nisi error possimus laboriosam optio ipsa illum tempora at molestias', NULL, '2012-12-03 22:05:15.236940', '2012-12-03 22:05:15.236941', 'Quas ut numquam est debitis nihil odio enim velit nisi vero', 'occaecati');INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (6, 'Dolorum', 'Rerum qui error sit aut magnam vel totam omnis ducimus illum quo et omnis maxime architecto. Sunt animi excepturi praesentium sed numquam non earum corrupti voluptatem aliquam voluptate nam provident cumque', NULL, '2012-12-03 22:05:15.237076', '2012-12-03 22:05:15.237078', 'Numquam beatae consequuntur laboriosam alias et quaerat qui voluptatem odit temporibus omnis ab qui nemo', 'error');INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (7, 'Sequi', 'Aperiam dignissimos a occaecati ut culpa assumenda aliquam ex qui repellat. Occaecati dicta est aspernatur et dolores', NULL, '2012-12-03 22:05:15.237208', '2012-12-03 22:05:15.237210', 'Accusamus aperiam facere excepturi sit quasi esse sapiente blanditiis consequatur', 'similique');INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (8, 'Sit', 'Qui cumque ut corporis numquam cupiditate minima exercitationem ipsum quam. Et inventore saepe quia doloribus accusantium ut unde consequatur culpa voluptatem aspernatur tenetur veniam consequuntur. Quidem cumque eos cumque fuga et non', NULL, '2012-12-03 22:05:15.237327', '2012-12-03 22:05:15.237328', 'Sit rerum ipsa facere mollitia nobis id dolorum eos sed aut aut dolorem omnis sint omnis eum aut ea ipsa', 'quaerat');INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (9, 'Sint', 'In et autem aut tenetur eius modi eaque. Accusantium veniam et dolor numquam sint consequatur et ut sint', NULL, '2012-12-03 22:05:15.237466', '2012-12-03 22:05:15.237468', 'Molestiae nihil ut id voluptatem id deserunt rerum fugit blanditiis qui quod quam vero soluta architecto repudiandae', 'occaecati');INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (10, 'Quidem', 'Magnam provident eos similique est optio dolor. Iste et at rerum ea est', NULL, '2012-12-03 22:05:15.237593', '2012-12-03 22:05:15.237595', 'Voluptatem fugiat rerum quia est nulla', 'atque');INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (11, 'Blanditiis', 'Incidunt sint ea neque corporis excepturi aut voluptatem voluptas harum cumque amet accusamus. Et quis quia sint vitae aliquam omnis labore ea provident tenetur molestias maiores qui sit', NULL, '2012-12-03 22:05:15.237707', '2012-12-03 22:05:15.237709', 'Nemo ipsam ut et sit sit in deserunt reprehenderit et est nam totam ad dolores', 'ut');INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (12, 'Libero', 'Facere libero earum et quia recusandae tenetur sequi nesciunt iste aut velit odit eaque molestias numquam quas quae corporis sunt. Excepturi quia accusamus soluta omnis consequatur et a velit ut nisi ipsam provident nihil beatae in odio aut. Debitis sequi voluptatem fugiat porro sunt fugit dolorem aut ea corrupti', NULL, '2012-12-03 22:05:15.237836', '2012-12-03 22:05:15.237838', 'Tempora culpa et harum laborum consectetur nulla ullam eos voluptatem molestias quo sunt quia', 'ut');INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (13, 'Quam', 'Tempore sit voluptas pariatur minima ea ullam impedit eligendi ea dicta. Consequatur quisquam fugiat quis aliquid fugit non qui voluptas porro omnis accusantium dignissimos doloribus. Assumenda vel quod exercitationem neque non voluptatem cupiditate esse quia', NULL, '2012-12-03 22:05:15.237983', '2012-12-03 22:05:15.237985', 'Commodi ut quod ut vitae voluptates dicta voluptatem ut sed ut rerum molestias sint omnis rem sapiente consequatur sed saepe', 'unde');INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (14, 'Quo', 'Numquam ut nobis veritatis ullam consectetur et sed. Aspernatur explicabo aut tempora provident et ex autem nihil quo. Placeat nobis molestiae laudantium reiciendis odio iure', NULL, '2012-12-03 22:05:15.238123', '2012-12-03 22:05:15.238125', 'Facere aut quos qui dolor quia velit quidem est ea corrupti quis dolorem', 'ut');INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (15, 'Hic', 'Explicabo possimus aut eligendi hic unde amet modi et unde a non doloribus. Dolores recusandae nihil neque magni sunt consequatur possimus praesentium itaque ipsam sapiente architecto', NULL, '2012-12-03 22:05:15.238251', '2012-12-03 22:05:15.238253', 'A exercitationem asperiores in totam voluptates consectetur', 'ad');INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (16, 'Autem', 'Ea in suscipit quis voluptatem sit voluptate nisi libero delectus non blanditiis neque tempore aspernatur molestias eaque placeat quia. Voluptate ut vero tenetur nihil aut nam et quis aspernatur aut', NULL, '2012-12-03 22:05:15.238371', '2012-12-03 22:05:15.238373', 'Quae facilis autem harum nulla illum eos sunt officiis voluptates dolores enim aperiam a facere qui', 'modi');INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (17, 'Fugit', 'Vel officia nesciunt facilis voluptates consectetur vero eos. Quis ex et incidunt esse error omnis itaque cum autem eligendi quasi. Accusantium quia sequi ipsa eos quo sint aut alias consectetur voluptate rerum voluptatem deleniti facere', NULL, '2012-12-03 22:05:15.238500', '2012-12-03 22:05:15.238502', 'Aut delectus qui veritatis sapiente dolor quae omnis facere ab deserunt quo quos quis et', 'illo');INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (18, 'Nemo', 'Et nulla tempora ut corrupti. Consequatur non exercitationem corporis ipsam iusto', NULL, '2012-12-03 22:05:15.238633', '2012-12-03 22:05:15.238635', 'Autem nesciunt quis dolore laboriosam qui totam deleniti nisi earum ut qui molestiae', 'deleniti');INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (19, 'Sed', 'Sint nesciunt ipsa asperiores enim quo. Velit ex ut ut cum ut nihil cupiditate', NULL, '2012-12-03 22:05:15.238748', '2012-12-03 22:05:15.238750', 'Sit voluptatum et rerum veritatis fugiat deleniti inventore cupiditate neque', 'ratione');INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (20, 'Eius', 'Omnis temporibus nisi voluptas similique laboriosam voluptatem corrupti consequatur ut voluptas atque recusandae corrupti est autem. Delectus sint rerum modi vel vero consequatur. Reiciendis asperiores qui provident rerum tenetur incidunt velit voluptas numquam velit earum magnam aut distinctio nobis ratione quo quia vel', NULL, '2012-12-03 22:05:15.238867', '2012-12-03 22:05:15.238869', 'Odio harum id et nihil et enim maxime magni aliquam iusto culpa', 'aut')
+
+
+Started GET "/words" for 127.0.0.1 at 2012-12-03 17:05:17 -0500
+Processing by WordsController#index as HTML
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" 
+  Rendered words/index.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 30ms (Views: 20.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/public.css?body=1" for 127.0.0.1 at 2012-12-03 17:05:17 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-12-03 17:05:17 -0500
+Served asset /public.css - 200 OK (1ms)
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/lists.js?body=1" for 127.0.0.1 at 2012-12-03 17:05:17 -0500
+Served asset /lists.js - 200 OK (0ms)
+
+
+Started GET "/assets/public.js?body=1" for 127.0.0.1 at 2012-12-03 17:05:17 -0500
+Served asset /public.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-12-03 17:05:17 -0500
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-12-03 17:05:17 -0500
+Served asset /words.js - 200 OK (0ms)
+
+
+Started GET "/words/5" for 127.0.0.1 at 2012-12-03 17:05:20 -0500
+Processing by WordsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."id" = ? LIMIT 1[0m  [["id", "5"]]
+  Rendered words/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 12ms (Views: 9.6ms | ActiveRecord: 0.4ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (2.9ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (0.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateWords (20121203212928)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "words" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "definition" text, "pos" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20121203212928')
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+Migrating to AddExampleToWords (20121203213400)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "words" ADD "example" text[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20121203213400')
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+Migrating to CreateLists (20121203214310)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "lists" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20121203214310')
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+Migrating to AddPronunciationToWords (20121203215508)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "words" ADD "pronunciation" varchar(255)[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20121203215508')
+  [1m[36m (0.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("lists")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("words")[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36mWord Last ID (0.1ms)[0m  [1mSELECT id FROM "words" ORDER BY id DESC[0m
+  [1m[35mWord Populate (3.4ms)[0m  INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (1, 'Quae', 'Dolor quis consequatur dolor et aut reiciendis sunt. Similique consequatur nihil assumenda rerum qui eligendi consequatur accusamus officia quia aut. Labore enim ea quaerat provident adipisci sint aut quam ut earum quas in soluta eum et quas', 'et', '2012-12-03 22:06:31.557600', '2012-12-03 22:06:31.557602', 'Est sit saepe vel est', 'quia');INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (2, 'Molestiae', 'Ab nostrum est nobis reprehenderit modi aut ea blanditiis repellat culpa ipsam vero saepe nihil. Voluptatum qui qui fuga sint quia labore natus enim sit. Fugiat consequuntur rerum commodi provident iusto et', 'error', '2012-12-03 22:06:31.557822', '2012-12-03 22:06:31.557824', 'Non itaque consectetur consectetur voluptas deserunt omnis', 'optio');INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (3, 'Dolores', 'Molestiae omnis voluptatem aut veritatis nihil ab quisquam sed et quo nemo reprehenderit. Quae facilis nihil harum quas voluptatibus laudantium et in voluptatem et', 'expedita', '2012-12-03 22:06:31.557965', '2012-12-03 22:06:31.557967', 'Deserunt omnis reiciendis cumque veniam magni laboriosam autem sed officia quo consequatur', 'perferendis');INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (4, 'Voluptas', 'Enim ea reiciendis id vel non rerum quasi est consectetur autem iusto ipsam nostrum incidunt. Quas autem et nihil adipisci voluptatibus ex non cupiditate culpa asperiores nihil sapiente accusamus velit et quo. Ab ut atque odio quasi quaerat', 'nemo', '2012-12-03 22:06:31.558112', '2012-12-03 22:06:31.558114', 'Id quo temporibus et quia nihil veniam consequatur quia', 'rem');INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (5, 'Veritatis', 'Ducimus vel non officia alias repudiandae vero et. In iure qui similique molestiae. Similique veniam in debitis quas error consequuntur dolores eos nostrum ipsum dolores nihil nihil voluptas', 'vel', '2012-12-03 22:06:31.558265', '2012-12-03 22:06:31.558267', 'Explicabo perspiciatis vel labore nemo ea rerum reprehenderit et libero odit tempora rerum est tempore qui possimus ea', 'rerum');INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (6, 'Consequatur', 'Et excepturi porro earum cumque facere sint commodi non corrupti qui possimus tempore natus. Omnis incidunt magni aperiam sed sequi saepe molestias et officiis delectus accusantium quae quam in ut expedita', 'perferendis', '2012-12-03 22:06:31.558434', '2012-12-03 22:06:31.558436', 'Sed laboriosam et omnis adipisci labore fugit molestias', 'iusto');INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (7, 'Aspernatur', 'Qui iure beatae sit dolor aut laborum necessitatibus et deserunt ut sed molestias consequuntur tempora et cumque. Provident ipsa est dolor qui placeat neque sunt vel accusantium officia et illum fugiat aut iste possimus dolor voluptatem veniam. Labore debitis libero aliquam neque suscipit quos neque ad sapiente quidem numquam ea sapiente et velit sit iure', 'iusto', '2012-12-03 22:06:31.558578', '2012-12-03 22:06:31.558579', 'Quos a similique ullam iusto deleniti nostrum distinctio et non quam similique impedit vitae asperiores nihil in quo', 'cumque');INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (8, 'Ut', 'Animi non dolor consectetur quis est doloribus dolores qui omnis quia ut et autem. Voluptas dolores laboriosam et vitae cumque reiciendis reprehenderit aut est consequatur velit quia a', 'et', '2012-12-03 22:06:31.558734', '2012-12-03 22:06:31.558735', 'In itaque cumque expedita ad eos quasi numquam eveniet sunt dolorem aut est modi omnis quis voluptatem vel ut velit', 'eum');INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (9, 'Dicta', 'Sit aspernatur ipsam rerum animi quam qui id ipsam illo nostrum doloribus officia et eum quasi quam in aliquid rerum. Amet qui voluptatum ea libero explicabo omnis ut eum sed. Laborum vero eveniet dolorem ut dicta facere quas enim deleniti ullam culpa natus odit voluptas inventore', 'dicta', '2012-12-03 22:06:31.558872', '2012-12-03 22:06:31.558873', 'Perspiciatis ut ut tempora maxime dolorum sint aut quisquam', 'illum');INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (10, 'Nulla', 'Ea ut dolorem perferendis nihil dolores eaque illo enim. Maxime aliquam voluptas rerum veniam sint et consequatur consectetur maxime architecto dolor sunt laudantium voluptatem ea eos enim sed', 'eum', '2012-12-03 22:06:31.559017', '2012-12-03 22:06:31.559018', 'Culpa commodi quia quas maxime ex in molestiae libero dolor ut vero dolorum et expedita non nihil beatae distinctio', 'provident');INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (11, 'Ipsum', 'Et debitis labore et perferendis. Nesciunt soluta beatae dicta omnis nihil aut in cum earum', 'commodi', '2012-12-03 22:06:31.559152', '2012-12-03 22:06:31.559153', 'Doloremque ipsam voluptas sequi rem aut iste modi eos ut ipsum maiores totam nostrum assumenda in et adipisci quas', 'et');INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (12, 'Dolores', 'Similique eum occaecati doloremque tempore error. Quia est et sit ut et et suscipit dolorem facilis voluptas optio praesentium ratione repellendus saepe qui molestiae. Aut praesentium magnam nobis quaerat asperiores ex nostrum', 'tempora', '2012-12-03 22:06:31.559282', '2012-12-03 22:06:31.559284', 'Inventore doloremque nihil maiores dolor non alias illo officiis cupiditate ut quas sint blanditiis id eum', 'necessitatibus');INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (13, 'Voluptatibus', 'Fugit itaque iure in et enim cum velit aut rem. Est quos numquam consequatur at excepturi saepe tempora reiciendis repellat', 'consectetur', '2012-12-03 22:06:31.559424', '2012-12-03 22:06:31.559425', 'Velit eaque labore omnis aliquam tempore dignissimos nam explicabo animi', 'odio');INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (14, 'Soluta', 'Laborum aut dicta consequatur cupiditate omnis impedit voluptatem nam repudiandae voluptatem itaque. Fuga laudantium porro eos ea libero ut mollitia dignissimos amet sunt deserunt praesentium possimus', 'pariatur', '2012-12-03 22:06:31.559552', '2012-12-03 22:06:31.559554', 'Et provident et odit dolor explicabo laboriosam voluptas', 'voluptatem');INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (15, 'Perferendis', 'Quia et veritatis quo culpa rerum cupiditate similique molestias. Cumque exercitationem nobis repellat necessitatibus numquam ratione doloribus suscipit asperiores quae laborum accusantium dolores modi dolore atque tempore', 'sunt', '2012-12-03 22:06:31.559680', '2012-12-03 22:06:31.559682', 'Et et explicabo adipisci nulla omnis praesentium incidunt accusamus veniam', 'explicabo');INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (16, 'Temporibus', 'Mollitia cupiditate illum hic praesentium architecto illo qui ut est ratione nihil. Fuga tempora distinctio id eos officiis non fugit quo quia est atque in saepe velit modi', 'natus', '2012-12-03 22:06:31.559861', '2012-12-03 22:06:31.559863', 'Eveniet sunt et sunt dolore eum voluptas velit enim voluptatum occaecati qui ipsam itaque id', 'cupiditate');INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (17, 'Dolore', 'Perspiciatis molestiae qui ratione alias ut corrupti esse laboriosam et aut soluta qui temporibus temporibus nesciunt qui accusantium quis. Quo non quae temporibus consequatur ab commodi deserunt accusantium officiis laboriosam molestias quaerat culpa eos architecto', 'placeat', '2012-12-03 22:06:31.560011', '2012-12-03 22:06:31.560013', 'Voluptas architecto natus quaerat esse ex error rerum', 'voluptatum');INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (18, 'Corrupti', 'Tenetur maiores sit neque maiores dolorem aliquam ut voluptas impedit facilis qui ea tempore ut. Dicta placeat et et molestiae et vel consectetur quas qui accusamus ut. Magnam aut voluptatum ex quis in repellendus magnam', 'distinctio', '2012-12-03 22:06:31.560155', '2012-12-03 22:06:31.560156', 'Deserunt ut quo aut voluptatem nisi neque qui dolorum voluptas vel dolores eos vel velit tenetur', 'a');INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (19, 'Dolorem', 'In unde enim consequatur sed fugiat itaque pariatur beatae et. Labore laudantium optio voluptas blanditiis', 'quia', '2012-12-03 22:06:31.560324', '2012-12-03 22:06:31.560326', 'Quia quis est est et sed inventore possimus placeat repudiandae iusto', 'et');INSERT INTO "words" ("id", "name", "definition", "pos", "created_at", "updated_at", "example", "pronunciation") VALUES (20, 'Quia', 'Eaque numquam quisquam fugit architecto modi. Beatae enim sed deleniti cupiditate mollitia sed voluptatum omnis et omnis beatae quaerat ut accusamus. Illum velit consectetur sit sit recusandae nulla consequuntur', 'accusamus', '2012-12-03 22:06:31.560456', '2012-12-03 22:06:31.560458', 'Expedita iusto dolor dolor quis accusantium ipsam temporibus aliquam quas consequuntur', 'et')
