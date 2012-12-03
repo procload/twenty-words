@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 #-------------- Framework
 gem 'rails', '3.2.8'
 gem 'jquery-rails'
+gem 'wordnik'
 
 #-------------- Database
 gem 'sqlite3'
@@ -25,5 +26,5 @@ group :development do
   gem 'guard'
   gem 'rack-livereload'
   gem 'guard-livereload'
-  
+  gem 'json'
 end

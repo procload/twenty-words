@@ -58,11 +58,15 @@ GEM
       addressable (>= 2.1.1)
       eventmachine (>= 0.12.9)
     erubis (2.7.0)
+    ethon (0.5.7)
+      ffi (~> 1.2.0)
+      mime-types (~> 1.18)
     eventmachine (1.0.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
     faker (1.1.2)
       i18n (~> 0.5)
+    ffi (1.2.0)
     fssm (0.2.9)
     guard (1.5.3)
       listen (>= 0.4.2)
@@ -75,6 +79,7 @@ GEM
       multi_json (~> 1.0)
     highline (1.6.15)
     hike (1.2.1)
+    htmlentities (4.3.1)
     i18n (0.6.1)
     journey (1.0.4)
     jquery-rails (2.1.3)
@@ -97,6 +102,7 @@ GEM
     net-ssh (2.6.1)
     net-ssh-gateway (1.1.0)
       net-ssh (>= 1.99.1)
+    nokogiri (1.5.5)
     polyglot (0.3.3)
     populator (1.0.0)
     pry (0.9.10)
@@ -146,10 +152,19 @@ GEM
     treetop (1.4.12)
       polyglot
       polyglot (>= 0.3.1)
+    typhoeus (0.5.3)
+      ethon (~> 0.5.3)
     tzinfo (0.3.35)
     uglifier (1.3.0)
       execjs (>= 0.3.0)
       multi_json (~> 1.0, >= 1.0.2)
+    wordnik (4.11)
+      activemodel (>= 3.0.3)
+      addressable (>= 2.2.4)
+      htmlentities (>= 4.2.4)
+      json (>= 1.4.6)
+      nokogiri (>= 1.4.4)
+      typhoeus (>= 0.2.1)
 
 PLATFORMS
   ruby
@@ -164,9 +179,11 @@ DEPENDENCIES
   guard
   guard-livereload
   jquery-rails
+  json
   populator
   rack-livereload
   rails (= 3.2.8)
   sass-rails (~> 3.2.5)
   sqlite3
   uglifier (>= 1.0.3)
+  wordnik

@@ -1,5 +1,7 @@
 TwentyWords::Application.routes.draw do
   
+  resources :quizzes
+
   resources :lists
 
   resources :words
